@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Maysun!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffe6f0, #fff);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      background: #ff80aa;
+      color: white;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      animation: slideUp 1s ease-in-out;
+    }
+
+    #music {
+      background-color: #fff0f5;
+    }
+
+    audio {
+      margin-top: 1rem;
+    }
+
+    .responsive {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    li {
+      background: #ffe6f0;
+      margin: 0.5rem auto;
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 400px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Birthday Maysun! 🎉</h1>
+    <p>Today we celebrate you and all the joy you bring into my life.</p>
+    <h2>🎂 It's your special day — wishing you endless happiness! 🎂</h2>
+  </header>
+
+  <section id="music">
+    <h2>Enjoy Our Favourite SONG!</h2>
+    <audio controls autoplay loop>
+      <source src="DIE WITH A SMILE.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We met on <strong>May 6th, 2024</strong> at <em>Uni</em>. From that moment, I knew you were someone special. Our journey together has been filled with laughter, love, and unforgettable memories. I cherish every moment with you.</p>
+    <img src="us.jpeg" alt="A photo of us" class="responsive">
+  </section>
+
+  <section id="wishes">
+    <h2>Birthday Wishes</h2>
+    <p>Here are some birthday wishes from your friends and family who love you dearly!</p>
+    <ul>
+      <li>HUDHY: Happy Birthday!</li>
+      <li>HUDHY BABY: Wishing you all the best!</li>
+      <li>HUDHY SHUNA: Have an amazing day!</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <img src="SHUNA.jpeg" alt="Memory 1" class="responsive">
+    <img src="272DF466-5A08-4DBD-8D7F-2EA7D4B94EDD_1_105_c.jpeg" alt="Memory 2" class="responsive">
+    <img src="4E1675F0-601E-4F35-80C9-916C240D5797_1_105_c.jpeg" alt="Memory 3" class="responsive">
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you want to send a message or birthday wish, feel free to reach out!</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </form>
+  </section>
+</body>
+</html>
+
